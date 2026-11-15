@@ -1,4 +1,4 @@
-<p align="center">
+ <p align="center">
   <img src="Meerkat Dex Gaming Showcase(1).png" alt="Meerkat Dex Android App" width="100%">
 </p>
 
@@ -8,7 +8,7 @@
 
 **Meerkat Dex** is an Android application designed to make discovering and exploring games easier. It brings game information into one organized experience, helping users explore titles, search for games, and learn more about their details before making a choice.
 
-This project represents a completed development milestone in my Android development journey, combining modern Android technologies, a structured architecture, and a dedicated REST API backend.
+The application combines game discovery, detailed game information, and user account features in a modern Android experience, supported by a dedicated REST API backend.
 
 ---
 
@@ -16,7 +16,7 @@ This project represents a completed development milestone in my Android developm
 
 Finding a game that matches your interests can involve searching across multiple sources. Meerkat Dex aims to simplify that experience by bringing relevant game information together in one place.
 
-The application focuses on game discovery, detailed game information, and a clean, user-friendly Android experience.
+Users can explore the game catalog, view detailed information about games, and create an account to manage their personal saved-game list.
 
 ## ✨ Key Features
 
@@ -24,11 +24,41 @@ The application focuses on game discovery, detailed game information, and a clea
 - 🎮 **Detailed Game Information** — View available descriptions, release information, genres, platforms, developers, and publishers.
 - 🖼️ **Game Artwork** — Explore available game images and visual details.
 - ⚙️ **Technical Information** — Check available game versions and system requirements.
-- 🌐 **API Integration** — Retrieve game data through a dedicated REST API.
+- 👤 **User Authentication** — Register and log in to access personal account features.
+- 🧑 **User Profile** — View your account information and manage your profile avatar.
+- ❤️ **Saved Games** — Add games to your saved list, remove them, and view your saved games.
+- 🌐 **API Integration** — Retrieve game and user data through a dedicated REST API.
 - 📡 **Network State Handling** — Handle offline states, network errors, and retry actions.
 - 🎨 **Modern Android UI** — Built with Jetpack Compose for a declarative and maintainable interface.
+- ✨ **Page Transition Animations** — Improved navigation experience with screen transition animations.
+- 🌍 **Multilingual Presentation** — Application screenshots and presentation materials for both Persian and English.
 
 *The information displayed depends on the data available for each game.*
+
+## 🆕 What's New in Version 1.1
+
+Version 1.1 introduces user account functionality, personal game management, and visual improvements to the application.
+
+### 👤 Account & Profile
+
+- User registration and login.
+- Access to the user's profile.
+- Profile avatar updates.
+
+### ❤️ Saved Games
+
+- Add games to a personal saved list.
+- Remove games from the saved list.
+- View all saved games in one place.
+
+### 🎨 UI & User Experience Improvements
+
+- Page transition animations.
+- Improved typography and fonts.
+- Refined visual design and interface elements.
+- Updated screenshots and presentation materials for both Persian and English.
+
+Version 1.1 expands Meerkat Dex beyond game discovery by introducing personal account features and a more polished user experience.
 
 ## 🛠️ Technology Stack
 
@@ -40,30 +70,48 @@ The application focuses on game discovery, detailed game information, and a clea
 - **Networking:** Retrofit
 - **Local Persistence:** Room
 - **Backend:** Laravel REST API
+- **Database:** MySQL
 
 ## 🏗️ Engineering Focus
 
 Beyond the user interface, Meerkat Dex focuses on maintainable application structure and reliable data handling.
 
-The project brings together separation of responsibilities, API data mapping, repository-based data access, state-driven UI, and network error handling to support a more consistent user experience.
+The project brings together:
+
+- Separation of responsibilities.
+- API data mapping.
+- Repository-based data access.
+- State-driven UI.
+- Network error handling.
+- User authentication and profile management.
+- Communication between the Android application and its backend API.
+- Saved-game management through API integration.
 
 ## 📱 Screenshots
 
 The screenshots below showcase the actual application interface.
 
-Add your real screenshots to the repository and display them here:
+### English
 
 | Home | Search | Game Details |
 |---|---|---|
 | Add Home screenshot | Add Search screenshot | Add Game Details screenshot |
 
+### فارسی (Persian)
+
+| صفحه اصلی | جستجو | جزئیات بازی |
+|---|---|---|
+| Add Persian Home screenshot | Add Persian Search screenshot | Add Persian Game Details screenshot |
+
+*Additional screenshots can be added to showcase the profile, saved games, login, and registration screens.*
+
 ## 🚀 Project Status
 
-**Current development milestone: Completed.**
+**Current Development Milestone: Version 1.1**
 
-Meerkat Dex has reached a completed development milestone, bringing together its core game-discovery experience, Android architecture, and API integration.
+Version 1.1 extends the original game-discovery experience with user authentication, profile management, saved games, and UI improvements.
 
-Future improvements and updates may be introduced as the project evolves.
+Further improvements and updates may be introduced as the project evolves.
 
 ## 🔒 Project Availability
 
